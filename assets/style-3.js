@@ -3,7 +3,7 @@ const fontname = "Roboto+Mono";
 const fontweights = [300, 400]
 
 // Color properties
-const basecolor = "#6a6a6a";
+const basecolor = "#535353";
 const accentcolor = "#007";
 const highlightcolor = "#111";
 
