@@ -242,7 +242,8 @@ h2 {
 }
 
 .paper,
-.blog-card {
+.blog-card,
+.callout-card {
     border-left: 4px solid var(--accent);
     background: linear-gradient(90deg, rgba(232, 243, 245, 0.75), #fff 48%);
 }
