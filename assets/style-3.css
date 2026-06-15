@@ -48,8 +48,8 @@ a:hover {
     gap: 1.25rem;
     align-items: center;
     padding: 0.72rem clamp(1rem, 4vw, 3rem);
-    background: rgba(255, 255, 255, 0.94);
-    border-bottom: 1px solid var(--line);
+    background: var(--accent);
+    border-bottom: 1px solid var(--accent-dark);
     backdrop-filter: blur(14px);
 }
 
@@ -71,7 +71,7 @@ a:hover {
 .section-tabs a,
 .external-tabs a {
     border-radius: 6px;
-    color: var(--muted);
+    color: #fff;
     font-size: 0.83rem;
     font-weight: 700;
     line-height: 1;
@@ -82,8 +82,8 @@ a:hover {
 
 .section-tabs a:hover,
 .external-tabs a:hover {
-    background: var(--accent-soft);
-    color: var(--accent-dark);
+    background: rgba(255, 255, 255, 0.14);
+    color: #fff;
 }
 
 main {
@@ -93,7 +93,7 @@ main {
 
 .hero {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 176px;
+    grid-template-columns: minmax(0, 1fr) 200px;
     gap: clamp(1.5rem, 5vw, 4rem);
     align-items: start;
     padding: clamp(3rem, 7vw, 5rem) 0 clamp(2.2rem, 5vw, 3.8rem);
@@ -178,7 +178,7 @@ h2 {
 }
 
 .profile-panel {
-    width: 176px;
+    width: 200px;
     overflow: hidden;
     border: 1px solid var(--line);
     border-radius: 6px;
@@ -367,7 +367,7 @@ footer {
 
     .profile-panel {
         order: -1;
-        width: 132px;
+        width: 150px;
     }
 
     h1 {
