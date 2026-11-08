@@ -39,7 +39,7 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
     margin-inline: auto;
 }
 .site-banner { padding-top: 2.4rem; }
-.section-tabs, .external-tabs, .hero-actions {
+.section-tabs, .hero-actions {
     display: flex;
     flex-wrap: wrap;
     gap: 0.4rem 1.5rem;
@@ -68,9 +68,9 @@ h1, h2 {
 }
 h1 { font-size: clamp(2rem, 4.5vw, 2.6rem); letter-spacing: -0.035em; }
 h2 { font-size: 1.65rem; letter-spacing: -0.02em; }
-.lead { margin: 0.8rem 0 1.2rem; max-width: 26rem; color: var(--muted); }
-.hero-actions, .external-tabs { font-size: 0.88rem; }
-.external-tabs { margin-top: 0.45rem; }
+.lead { margin: 0.8rem 0 1.2rem; color: var(--muted); }
+.hero-actions { font-size: 0.88rem; }
+.hero-actions a { white-space: nowrap; }
 .profile-panel { width: 170px; }
 .profilepic { display: block; width: 100%; height: auto; aspect-ratio: 1 / 1.14; object-fit: cover; }
 .content-section { padding: 2.4rem 0; border-top: 1px solid var(--line); scroll-margin-top: 1.5rem; }
@@ -101,8 +101,7 @@ footer small { font-size: 0.75rem; }
     .section-tabs { gap: 1.25rem; }
     .hero { grid-template-columns: 1fr; gap: 1.5rem; padding: 2rem 0; }
     .profile-panel { order: -1; width: 120px; }
-    .lead { max-width: 23rem; }
-    .hero-actions, .external-tabs { gap: 0.35rem 1.25rem; }
+    .hero-actions { gap: 0.35rem 1.25rem; }
     .content-section { padding-block: 2rem; }
     .about-grid { padding-top: 0; }
     .paper { grid-template-columns: 80px minmax(0, 1fr); gap: 1rem; }
