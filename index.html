@@ -10,6 +10,7 @@
 
     <link rel="icon" href="data:,">
     <link rel="stylesheet" href="assets/style-3.css">
+    <script src="assets/navigation.js" defer></script>
 </head>
 <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -22,8 +23,8 @@
         </nav>
     </header>
 
-    <main id="main">
-        <section class="hero" id="about">
+    <main id="main" tabindex="-1">
+        <section class="hero" id="about" data-page="about">
             <div class="hero-copy">
                 <h1>Alejandro Buendia</h1>
                 <p class="lead">
@@ -42,7 +43,7 @@
             </aside>
         </section>
 
-        <section class="content-section about-grid">
+        <section class="content-section about-grid" data-page="about">
             <div>
                 <h2>About</h2>
             </div>
@@ -61,7 +62,7 @@
             </div>
         </section>
 
-        <section class="content-section" id="publications">
+        <section class="content-section" id="publications" data-page="publications">
             <div class="section-heading">
                 <h2>Selected publications</h2>
             </div>
@@ -161,7 +162,7 @@
             </div>
         </section>
 
-        <section class="content-section" id="blog">
+        <section class="content-section" id="blog" data-page="blog">
             <div class="section-heading">
                 <h2>Genomics x AI Blog</h2>
             </div>
@@ -184,7 +185,7 @@
             </div>
         </section>
 
-        <section class="content-section two-column-section" id="teaching">
+        <section class="content-section two-column-section" id="teaching" data-page="teaching">
             <div class="section-heading">
                 <h2>Teaching</h2>
             </div>
